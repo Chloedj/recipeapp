@@ -89,4 +89,15 @@
         font-size: 1.2em;
         
     }
+         .recipe-image {
+             width: 100%;
+             
+         }
+
+                 .recipe-text,
+                 .recipe-info,
+                 .recipe-link {
+                     padding: 10px;
+                     
+                 }
 }

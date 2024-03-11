@@ -70,6 +70,23 @@ footer {
 }
 
 @media (min-width: 768px) {
+  .Header {
+      font-size: 18px;
+      
+    }
+  
+    .search-bar form {
+      flex-direction: column;
+      
+    }
+  
+    .search-input,
+    button {
+      width: 100%;
+      
+      margin: 5px 0;
+      
+    }
 
   .recipe-display {
     grid-template-columns: repeat(3, 1fr);
