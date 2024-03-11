@@ -59,6 +59,25 @@ useEffect(() => {
                     ))} 
                 
             </div> 
+            <footer>
+        This project was coded by{" "}
+        <a href="https://github.com/Chloedj" target="_blank" rel="noreferrer"
+          >Chloe Duggan-Jones</a
+        >
+        {" "}, is open souced on{" "}
+        <a
+          href="https://github.com/Chloedj/recipeapp"
+          target="_blank" rel="noreferrer"
+        >
+          on GitHub</a
+        >
+        ,{" "}and{" "}
+        <a
+          href="https://beamish-beijinho-c87228.netlify.app/"
+          target="_blank" rel="noreferrer"
+          >hosted on Netlify</a
+        >
+      </footer>
         </div> 
     ); 
 }; 
