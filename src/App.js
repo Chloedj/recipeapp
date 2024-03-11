@@ -39,28 +39,18 @@ useEffect(() => {
                                            
             </header> 
             <div className="search-bar"> 
-                <form 
-                    onSubmit={getSearchFunction} 
-                    
-                > 
-                    <div className="search-input"> 
-                        <input 
-                            type="text"
-                            name="search"
-                            value={search_recipe} 
-                            onChange={updateSearchFunction} 
-                            placeholder="Search for recipes..."
-                            
-                        /> 
-                    </div> 
-                    <button 
-                        type="submit"
-                        
-                    > 
-                        Search Recipe 
-                    </button> 
-                </form> 
-            </div> 
+    <form onSubmit={getSearchFunction}>
+        <input 
+            type="text"
+            name="search"
+            value={search_recipe} 
+            onChange={updateSearchFunction} 
+            placeholder="Search for recipes..."
+            className="search-input"
+        /> 
+        <button type="submit">Search Recipe</button> 
+    </form> 
+</div>
   
             <div className="recipe-display"> 
                          {food_recipes.map((recipe) => ( 

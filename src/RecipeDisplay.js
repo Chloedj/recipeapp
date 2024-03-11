@@ -1,4 +1,5 @@
 import React from "react";
+import './RecipeDisplay.css';
 
 export default function RecipeDisplay({ recipe }) {
     console.log(recipe);
